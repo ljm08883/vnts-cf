@@ -19,7 +19,7 @@ WHITE_TOKEN = ""
 GATEWAY_NAME = "服务器"
 
 # 客户端服务端加密（Cloudflare Workers 的 Web Crypto API 不支持 RSAES-PKCS1-v1_5 算法，请勿开启！）
-SERVER_ENCRYPT = "false"
+SERVER_ENCRYPT = ""
   
 # 是否禁用中继转发： 0 允许中继  1 仅P2P
 DISABLE_RELAY = "0"
