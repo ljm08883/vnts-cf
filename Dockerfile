@@ -13,6 +13,6 @@ RUN npm install
 COPY . .  
   
   
-EXPOSE 443  
+EXPOSE 29872  
   
 CMD ["npm", "run", "dev"]
